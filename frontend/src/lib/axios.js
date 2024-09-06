@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosInstance = axios.create({
-    baseURL: "http://localhost:8000",
+    baseURL: "https://mern-ecommerce-ie0r.onrender.com",
     withCredentials: true
 })
 
