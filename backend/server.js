@@ -16,7 +16,7 @@ import { connectDB } from "./lib/db.js";
 dotenv.config();
 const app = express();
 app.use(cors({
-    origin: "https://mern-ecommerce-ie0r.onrender.com",
+    origin: "https://mern-ecommerce-8udp.onrender.com",
     credentials: true
 }))
 const PORT = process.env.PORT || 8000;
